@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+ <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800&display=swap"
+      rel="stylesheet" />
+    <title>| Ping coming soon page |</title>
+    <script src="./asset/app.js" defer></script>
+  </head>
+  <body>
+    <div class="bg-slate-200 w-screen h-screen font-Inter">
+      <div
+        class="container flex justify-center items-center flex-col h-scree w-11/12 mx-auto">
+        <h1 class="uppercase font-extrabold text-3xl py-6">Ping.</h1>
+        <h2 class="text-2xl text-grey py-6">
+          We are launching <span class="text-black font-bold">soon!</span>
+        </h2>
+        <p class="text-center pb-4">Subscribe and get notified</p>
+
+        <div class="flex flex-col mb-12 sm:flex-row">
+          
+        <div class="sm:flex sm:flex-col">
+
+          <input
+          type="text"
+          name="email"
+          class="py-2 px-4 rounded-2xl mb-2 sm:mb-0 sm:mr-6 w-"
+          id="input"
+          placeholder="Your email address..." />
+        <p class="text-red-500 my-2 text-sm hidden warning-text">
+          Please provide a valid email address...
+        </p>
+        <p class="text-green-500 my-2 text-sm hidden  approved-text">
+          Email has been sucessfully verified...
+        </p>
+      
+        </div>
+
+
+
+          <button
+            class="py-2 px-4 rounded-2xl bg-blue text-white btn sm:h-10"
+            type="submit">
+            Notify Me
+          </button>
+        </div>
+        <div class="">
+          <img
+            src="./images/illustration-dashboard.png"
+            alt="illustration-dashboard" />
+        </div>
+        <footer>
+          <div class="text-grey mt-8">
+            <p>&copy; Copyright Ping. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
